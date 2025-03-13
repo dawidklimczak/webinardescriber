@@ -1,1 +1,5 @@
 streamlit
+requests
+openai
+python-docx
+PyPDF2
