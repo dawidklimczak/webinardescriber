@@ -289,7 +289,7 @@ def analyze_webinar(text, openai_api_key):
     """
     
     response = openai_client.chat.completions.create(
-        model="gpt-3.5-turbo-0125",
+        model="gpt-4o-mini",
         messages=[
             {"role": "system", "content": "Jesteś ekspertem od marketingu edukacyjnego, specjalizującym się w analizie i tworzeniu materiałów promocyjnych."},
             {"role": "user", "content": prompt}
